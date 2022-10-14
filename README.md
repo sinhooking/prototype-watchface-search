@@ -1,7 +1,4 @@
-# Simple Image Search Engine
-
-## LICENSE
-LICENSE
+# From Simple Image Search Engine
 
 ## Overview
 - Simple image-based image search engine using Keras + Flask. You can launch the search engine just by running two python scripts.
@@ -18,3 +15,8 @@ LICENSE
 - After you run `python server.py`, you can access the server from your browser via something like `http://ec2-XX-XX-XXX-XXX.us-west-2.compute.amazonaws.com:5000`
 - (Advanced) If you'd like to deploy the system in a secure way, please consider running the search engine with the usual web server, e.g., uWSGI + nginx.
 - (Advanced) If you want to deploy the system serverlessly, [AWS AppRunner](https://docs.aws.amazon.com/apprunner/latest/dg/what-is-apprunner.html) is the way to go.
+
+## How to Run
+ - Add watchface for images in static/img
+ - Check expose port for dockerfile
+ - Run Docker 
